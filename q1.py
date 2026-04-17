@@ -1,9 +1,18 @@
 class Cat:
     """a cat"""
-    def speak():
+    def speak(self):
         print("Meow!")
 
 ella = Cat()
-zoe = Cat()
+ella.speak()
+
 print(ella)
-print(zoe)
+
+
+class Dog:
+    """a dog"""
+    def speak(self):
+        print("Woof!")
+
+max = Dog()
+max.speak()
